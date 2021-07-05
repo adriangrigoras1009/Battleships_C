@@ -1,0 +1,7 @@
+build: battleship.c
+	gcc -Wall -g battleship.c -o battleship -lcurses
+run: battleship
+	./battleship harta_mea
+clean: battleship
+	rm -f battleship
+	
